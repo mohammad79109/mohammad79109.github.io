@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+img {
+    float: left;
+    margin: 20px;
+}
+
+.container article {
+    padding: 5px;
+}
+
+a{
+text-decoration: none;
+background-color:blue;
+padding: 5px 10px;
+margin:20px auto;
+background-color:white;
+text-align:center;
+}
+
+footer{
+text-align:center;
+background-color:red;
+padding: 2px;
+margin:20px;
+background-color:white;
+}
