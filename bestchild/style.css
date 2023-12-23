@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&display=swap');
+
+body {
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#3E5151, #DECBA4);
+    height: 400vh;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav ol li {
+    margin: 1em;
+}
+
+.nav ol li a {
+    text-decoration: none;
+    padding: 0.2em 1.2em 0.9em 1.2em;
+    border-radius: 10px 10px 0 0;
+    color: rgb(39, 39, 39);
+    transition: all .4s;
+    position: relative;
+    z-index: 1;
+    margin-left: 0;
+    float: right;
+    margin: auto;
+}
+
+.nav ol li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    border-radius: 10px 10px 0 0;
+    background: #853333;
+    transform-origin: bottom;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    transform: scaleY(0.05);
+    z-index: 1;
+    transition: all 4s;
+}
+
+.nav ol li a:hover::before {
+    transform: scaleX(1, 1);
+}
+
+.nav ol li a:hover {
+    color: white;
+}
+
+.navbar2 {
+    margin: auto;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+.img2 {
+    width: 225px;
+    height: 225px;
+    margin: auto;
+}
+
+.img3 {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+.img4 {
+    width: 225px;
+    height: 225px;
+    margin: auto;
+}
+
+.img5 {
+    width: 210px;
+    height: 210px;
+    margin: auto;
+}
+
+.img6 {
+    width: 175px;
+    height: 175px;
+    margin: auto;
+}
+
+.img7 {
+    width: 210px;
+    height: 210px;
+    margin: auto;
+}
+
+.img8 {
+    width: 225px;
+    height: 225px;
+    margin: auto;
+}
+
+.img9 {
+    width: 225px;
+    height: 250px;
+    margin: auto;
+}
+
+.img10 {
+    width: 225px;
+    height: 250px;
+    margin: auto;
+}
+
+.img11 {
+    width: 225px;
+    height: 250px;
+    margin: auto;
+}
+
+.li::before {
+    text-decoration: white;
+}
